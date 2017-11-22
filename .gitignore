@@ -44,6 +44,23 @@ modules.builtin
 /System.map
 /Module.markers
 /Module.symvers
+/AnyKernel2
+/mkbootimg_tools
+/zImage_otherzz
+/backup_kernel.sh
+/clean_make.sh
+/clean_mproper.sh
+/compile.sh
+/config_backup.sh
+/dtb_build.sh
+/envsetup.sh
+/git_gc.sh
+/make_AnyKernel2.sh
+/new_compile.sh
+/unpack.sh
+/
+/
+
 
 #
 # Debian directory (make deb-pkg)
