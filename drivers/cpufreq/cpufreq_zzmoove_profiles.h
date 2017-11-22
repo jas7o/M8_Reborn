@@ -1761,8 +1761,8 @@ struct zzmoove_profile zzmoove_profiles[] = {
 		3,		// inputboost_typingbooster_cores
 #endif /* ENABLE_INPUTBOOSTER */
 #ifdef ENABLE_MUSIC_LIMITS
-		1200000,	// music_max_freq
-		312000,		// music_min_freq
+		1497600,	// music_max_freq
+		422400,		// music_min_freq
 		2,		// music_min_cores
 #endif /* ENABLE_MUSIC_LIMITS */
 		60,		// smooth_up
