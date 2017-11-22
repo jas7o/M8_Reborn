@@ -146,6 +146,10 @@ extern unsigned long nr_running(void);
 extern unsigned long nr_uninterruptible(void);
 extern unsigned long nr_iowait(void);
 extern unsigned long nr_iowait_cpu(int cpu);
+#if defined(CONFIG_INTELLI_PLUG) || defined(CONFIG_LAZYPLUG)
+extern unsigned long avg_nr_running(void);
+extern unsigned long avg_cpu_nr_running(unsigned int cpu);
+#endif
 extern unsigned long this_cpu_load(void);
 
 extern void sched_update_nr_prod(int cpu, unsigned long nr, bool inc);
